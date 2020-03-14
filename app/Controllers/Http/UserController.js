@@ -12,7 +12,7 @@ class UserController {
   }
 
   async index({ request }){
-    const users = await User.findAll({ limit: 10 })
+    const users = await User.all()
 
     return users
 
