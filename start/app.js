@@ -52,6 +52,10 @@ const aceProviders = [
 */
 const aliases = {}
 
+const jobs = [
+  'App/Jobs/NewTaskMail'
+]
+
 /*
 |--------------------------------------------------------------------------
 | Commands
@@ -62,4 +66,4 @@ const aliases = {}
 */
 const commands = []
 
-module.exports = { providers, aceProviders, aliases, commands }
+module.exports = { providers, aceProviders, aliases, commands, jobs }
